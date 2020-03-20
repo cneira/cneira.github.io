@@ -1,4 +1,3 @@
-# Install Wordpress on SmartOS
 
 Installing Wordpress on Triton is pretty straight forward, this guide still holds but we will use base-64-lts@18.4.0 image.
 ```bash
