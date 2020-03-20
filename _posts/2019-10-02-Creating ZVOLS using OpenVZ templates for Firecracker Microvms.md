@@ -94,8 +94,10 @@ alpine-build:~/firecracker/firecracker$ sudo sh runvm.sh
  [    0.000000] Memory: 498120K/523896K available (8204K kernel code, 622K rwdata, 1464K rodata, 1268K init, 2820K bss, 25776K reserved, 0K cma-reserved)
  ```
 If we need more space, just resize the zvol  
+  
+  
+```bash  
 
-```bash
 alpine-build:~/firecracker/firecracker$ sudo zfs set volsize=2G zpool/test2
 alpine-build:~/firecracker/firecracker$ sudo resize2fs /dev/zvol/zpool/test2
  resize2fs 1.44.5 (15-Dec-2018)
