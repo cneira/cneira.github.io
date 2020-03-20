@@ -28,9 +28,12 @@ type datasource_inputs struct {
   
 I read this great article when I was learning how to use the xml library  
 
-https://astaxie.gitbooks.io/build-web-application-with-golang/en/07.1.html  
+https://astaxie.gitbooks.io/build-web-application-with-golang/en/07.1.html    
 
+  
+  
 Here is the actual code :  
+
 
 ```golang
 soapenv_head :=
