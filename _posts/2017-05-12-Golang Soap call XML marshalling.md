@@ -1,28 +1,37 @@
 I was unmarshalling a soap request using the xml package, but after a couple of tests I realized  
-the unmarshalled representation did not match the actual marshalled object, that’s a big issue if  
-you are marshalling/unmarshalling xml soap requests.  
+the unmarshalled representation did not match the actual marshalled object.  
+That’s a big issue if  you are marshalling/unmarshalling xml soap requests.  
   
 If you are using simple xml documents it’s fine, but for more complex stuff you need to be aware.
-For example try to unmarshal/marshal this and you will see what I’m talking about. (if it works now I would like to know)
+For example try to unmarshal/marshal this and you will see what I’m talking about. (if it works now I would like to know)  
+   
+   
 ```xml
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:yourWebService">
-```
+```  
+
 # Solution
-Just a kludge, to bypass this issue I used marshall a simpler struct that comes in the soap request body, do whatever I need with that struct,
-the concatenate all in byte array.
+Just a kludge, to bypass this issue I used marshall a simpler struct that comes in the soap request body,  
+do whatever I need with that struct, the concatenate all in byte array.  
+
 I just marshall this xml struct
 <name>some_name</name>
 <value>some_value</value>
-into this
+into this  
+  
 ```golang
 type datasource_inputs struct {
   Name  string `xml:"name"`
   Value string `xml:"value"`
 }
 ```
-I read this great article when I was learning how to use the xml library
-https://astaxie.gitbooks.io/build-web-application-with-golang/en/07.1.html
-Here is the actual code :
+  
+I read this great article when I was learning how to use the xml library  
+
+https://astaxie.gitbooks.io/build-web-application-with-golang/en/07.1.html  
+
+Here is the actual code :  
+
 ```golang
 soapenv_head :=
 []byte(
