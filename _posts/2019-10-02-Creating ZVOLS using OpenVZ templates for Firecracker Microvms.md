@@ -93,7 +93,8 @@ alpine-build:~/firecracker/firecracker$ sudo sh runvm.sh
  [    0.000000] PID hash table entries: 2048 (order: 2, 16384 bytes)
  [    0.000000] Memory: 498120K/523896K available (8204K kernel code, 622K rwdata, 1464K rodata, 1268K init, 2820K bss, 25776K reserved, 0K cma-reserved)
  ```
-If we need more space, just resize the zvol 
+If we need more space, just resize the zvol  
+
 ```bash
 alpine-build:~/firecracker/firecracker$ sudo zfs set volsize=2G zpool/test2
 alpine-build:~/firecracker/firecracker$ sudo resize2fs /dev/zvol/zpool/test2
