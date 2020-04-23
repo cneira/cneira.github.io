@@ -8,13 +8,13 @@ name: Carlos Neira
 description: Software Developer, a blog about UNIX and Programming.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://c10.patreonusercontent.com/3/eyJ3Ijo5NjB9/patreon-media/p/campaign/2905236/d16af071378c422489467af910ea99e9/1.jpg?token-time=1584992349&token-hash=xyHgm1BcAr2B7qb7IkToFu9CCbzF4Zj5dC8aYHPbYmw%3D#
+avatar: images/patreon.png 
+# Remote theme
+remote_theme: pages-theme/minimal
 
-theme: minima
 #
 # Flags below are optional
 #
-
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:

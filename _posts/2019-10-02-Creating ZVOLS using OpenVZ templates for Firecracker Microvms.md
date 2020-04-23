@@ -16,7 +16,7 @@ On your other system just receive it
 # zfs receive zpool/disk1 < disk1.img
 ```
 Now just run firecracker and point rootfs to that zvol :
-```bash
+```sh
 alpine-build:~/firecracker/firecracker$ cat runvm.sh 
  ./firectl 
    --kernel=hello-vmlinux.bin 
