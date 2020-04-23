@@ -8,7 +8,7 @@ name: Carlos Neira
 description: Software Developer, a blog about UNIX and Programming.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/patreon.png 
+avatar: https://github.com/cneira/cneira.github.io/blob/master/images/patreon.png 
 # Remote theme
 remote_theme: pages-theme/minimal
 
