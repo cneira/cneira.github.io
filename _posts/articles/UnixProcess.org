@@ -1,0 +1,118 @@
+#+TITLE: Unix Process
+#+AUTHOR: Carlos Neira
+
+* Micro-state accounting in Linux
+
+Micro-state accounting gives you information where your process spends most
+of it's time, a process could be in one of the five available states :
+
+- RUNNING
+- TASK INTERRUPTABLE
+- TASK UNINTERRUPTABLE
+- SLEEP
+- EXIT
+
+  There is patch in Linux where it adds these statistics, but is out of the main tree and now does not make sense as we could gather this from ebpf without a performance hit.
+  The only status that we have available in user-land is /proc/<pid>/schedstat
+ https://www.kernel.org/doc/Documentation/scheduler/sched-stats.txt
+
+ #+BEGIN_QUOTE
+ /proc/<pid>/schedstat
+----------------
+schedstats also adds a new /proc/<pid>/schedstat file to include some of
+the same information on a per-process level.  There are three fields in
+this file correlating for that process to:
+     1) time spent on the cpu
+     2) time spent waiting on a runqueue
+     3) # of timeslices run on this cpu
+
+A program could be easily written to make use of these extra fields to
+report on how well a particular process or set of processes is faring
+under the scheduler's policies.  A simple version of such a program is
+available at
+    http://eaglet.rain.com/rick/linux/schedstat/v12/latency.c
+#+END_QUOTE
+
+ Also the jiffies in the status provided could be wrong
+
+ #+begin_quote https://unix.stackexchange.com/questions/418773/measure-units-in-proc-pid-schedstat
+ #+end_quote
+So at this point the only thing missing is to instrument when a process changes it's state and keep the statistics in a bcc/bpftrace program.
+the process descriptor (struct task) has the state field with the state we want to know and aggregate.
+
+Here is an article by Brendan where he uses task struct
+https://lwn.net/Articles/793749/ . current task is builtin so is always available.
+
+These are tracepoints of interest :
+
+tracepoint:sched:sched_waking
+tracepoint:sched:sched_wakeup
+tracepoint:sched:sched_wakeup_new
+tracepoint:sched:sched_switch
+tracepoint:sched:sched_migrate_task
+tracepoint:sched:sched_process_free
+tracepoint:sched:sched_process_exit
+tracepoint:sched:sched_wait_task
+tracepoint:sched:sched_process_wait
+tracepoint:sched:sched_process_fork
+tracepoint:sched:sched_process_exec
+tracepoint:sched:sched_stat_wait
+tracepoint:sched:sched_stat_sleep
+
+This is a bpftrace reference
+http://www.brendangregg.com/BPF/bpftrace-cheat-sheet.html
+
+* Preemption and context switching
+
+Preemption is called when a process is taken out of the cpu to allow other process to use it,
+it does not voluntary do so.
+A task that's is sleeping in wake up by try_to_wake_up which sets the task state to TASK_RUNNING
+The change from one running task to another is done by context_switch() then when the scheduler
+decides that another task must be running a need_resched flag is setup by scheduler_tick() and try_to_wake_up() when a process that has a higher priority that the one that's currently running is awakened, the scheduler sees that flag and tries to get it off the cpu as another process deserves
+to run.
+
+
+
+
+* Updating Centos 7 Kernel
+I'll work on Centos 7 as is the most deployed in production AFAIK, the kernel needs to be updated from
+the stock 3.10 line to  5.X.X
+Here is a guide on how to do it :
+
+https://phoenixnap.com/kb/how-to-upgrade-kernel-centos
+
+#+begin_quote
+To install the new kernel version, a new repository (ELRepo repository) needs to be enabled.
+
+In a terminal window, type:
+
+sudo rpm –-import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+Next, install the ELRepo repository by executing the following command:
+
+sudo rpm -Uvh https://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
+
+sudo yum --enablerepo=elrepo-kernel install kernel-ml
+
+
+Navigate to /etc/default/ and open the grub file with your text editor. Or, type the following in the terminal:
+
+sudo vim /etc/default/grub
+
+Once the file opens, look for the line that says GRUB_DEFAULT=X, and change it to GRUB_DEFAULT=0 (zero). This line will instruct the boot loader to default to the first kernel on the list, which is the latest.
+
+Save the file, and then type the following command in the terminal to recreate the kernel configuration:
+
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+#+end_quote
+
+* Installing bpftrace
+
+Repository available at https://repos.baslab.org/bpftools/
+
+** Install:
+#+begin_quote
+curl https://repos.baslab.org/bpftools.repo --output /etc/yum.repos.d/bpftools.repo
+yum install bpftrace-static bpftrace-tools bpftrace-docs bcc-static bcc-tools
+
+Installing the -static versions is recommended as the LLVM packages are terrible.
+#+end_quote
