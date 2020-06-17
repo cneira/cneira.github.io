@@ -71,9 +71,6 @@ The change from one running task to another is done by context_switch() then whe
 decides that another task must be running a need_resched flag is setup by scheduler_tick() and try_to_wake_up() when a process that has a higher priority that the one that's currently running is awakened, the scheduler sees that flag and tries to get it off the cpu as another process deserves
 to run.
 
-
-
-
 * Updating Centos 7 Kernel
 I'll work on Centos 7 as is the most deployed in production AFAIK, the kernel needs to be updated from
 the stock 3.10 line to  5.X.X
