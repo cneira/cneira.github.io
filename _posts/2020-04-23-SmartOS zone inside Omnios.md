@@ -1,10 +1,13 @@
-A couple of days ago, I was reading the pksrc build documents https://github.com/joyent/pkgsrc/wiki/pkgdev:setup
-and thought that would be really useful to import the pkgsrc image d001d2b4-3157-11ea-832d-df421d070030 into a zone with
-Omniosce, asking on irc andyf on #omnios help me right away and explained that was a 'illumos' branded zone, that 
-could be use to host other illumos distros, after trying that  it failed but he found out that some customizations
-must be done, here are the steps provided by andyf.
-First you need to get the joyent image with 
-  
+A couple of days ago, I was reading the pksrc build documents
+https://github.com/joyent/pkgsrc/wiki/pkgdev:setup and thought that
+would be really useful to import the pkgsrc image
+d001d2b4-3157-11ea-832d-df421d070030 into a zone with Omniosce, asking
+on irc andyf on #omnios help me right away and explained that was a
+'illumos' branded zone, that could be use to host other illumos distros,
+after trying that  it failed but he found out that some customizations
+must be done, here are the steps provided by andyf.  First you need to
+get the joyent image with
+
 
 >% curl -o /data/iso/pkgsrc.zss.gz https://images.joyent.com/images/d001d2b4-3157-11ea-832d-df421d070030/file
 
