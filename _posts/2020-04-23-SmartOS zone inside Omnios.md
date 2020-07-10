@@ -73,7 +73,7 @@ set physical="tt0"
 set global-nic="switch10"
 end
 ```
-```bash
+```
 # zoneadm -z tt install -s /data/iso/pkgsrc.zss.gz
 A ZFS file system has been created for this zone.
 Installing zone from ZFS stream /data/iso/pkgsrc.zss.gz
