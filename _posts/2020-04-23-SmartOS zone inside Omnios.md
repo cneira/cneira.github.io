@@ -41,7 +41,7 @@ fs:
 net:
         global-nic: switch10
         physical: tt0
-
+```
 ```bash 
 # zonecfg -z tt export
 create -b
@@ -96,4 +96,4 @@ reaper# zlogin tt
                    `-'  https://docs.joyent.com/images/smartos/pkgbuild
 
 [root@tt ~]#
-```bash
+```
