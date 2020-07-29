@@ -14,7 +14,7 @@ The problems I found are the following:
 - Installing sdc-imagcli I needed to add flags --unsafe-perm=true --allow-root to install it to the GZ.   
   
  ```bash
- npm install -g git+https://github.com/joyent/sdc-imgapi-cli.git 
+ npm install -g git+https://github.com/joyent/sdc-imgapi-cli.git --unsafe-perm=true --allow-root
   ```
 -  script inside the imgapi-standalone image expects /opt/smart-dc instead of /opt/sdc-imgapi just a symlink fixed the issue.
 
