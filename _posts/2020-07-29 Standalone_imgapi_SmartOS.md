@@ -10,10 +10,15 @@ on the [SmartOS mailing list](https://smartos.topicbox.com/groups/smartos-discus
 I used SmartOS (build: 20200603T203505Z) to create the imgapi instance.
     
     
-The only problem I found is the following: 
-   
-   
-I was trying to create a custom image using as base the minimal 64 image and just
+The problems I found are the following: 
+- Installing sdc-imagcli I needed to add flags --unsafe-perm=true --allow-root to install it to the GZ.   
+  
+ ```bash
+ npm install -g git+https://github.com/joyent/sdc-imgapi-cli.git 
+  ```
+-  script inside the imgapi-standalone image expects /opt/smart-dc instead of /opt/sdc-imgapi just a symlink fixed the issue.
+
+- Trying to create a custom image using as base the minimal 64 image and just
 installed postgresql. But I encountered this error:
 
 ```bash 
