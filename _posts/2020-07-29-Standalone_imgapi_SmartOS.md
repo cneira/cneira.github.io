@@ -1,4 +1,4 @@
-# Standalone imgapi in SmartOS
+
 
 [imgapi](https://github.com/joyent/sdc-imgapi/blob/master/docs/index.md) is the SmartOS image management api, that allows you to publish, delete
 and import images SmartOS don't have this api installed by default but is
