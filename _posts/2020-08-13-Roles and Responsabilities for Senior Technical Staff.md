@@ -1,6 +1,6 @@
-On twitter @alanc shared this text created by Mark Kampe, is 
+On twitter @alanc shared this text created by [Mark Kampe](https://github.com/markkampe), is 
 a really beautiful text and one that we should follow as software developers.
-
+```quote
 
 
 		Roles and Responsibilities for Senior Technical Staff
@@ -743,3 +743,4 @@ a really beautiful text and one that we should follow as software developers.
 	we continually face numerous problems, and it seems 
 	miraculous that we can keep pulling this off.  A sense
 	of humor (even a perverse one) is almost essential.
+```
