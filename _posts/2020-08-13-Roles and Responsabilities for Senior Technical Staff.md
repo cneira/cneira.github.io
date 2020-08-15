@@ -1,746 +1,746 @@
 On twitter @alanc shared this text created by [Mark Kampe](https://github.com/markkampe), is 
-a really beautiful text and one that we should follow as software developers.
-```quote
-
-
-		Roles and Responsibilities for Senior Technical Staff
-
-			   version 1.6 of 04/20/98
-
-
-
-
-		I, according to my copy, have done set it in
-		imprint, to the intent that noble men may see
-		and learn the noble acts of chivalry, and the
-		gentle and virtuous deeds that some knights
-		used in those days.
-
-			William Caxton, Preface to the first
-			printing of Mallory's "Le Morte D'Arthur"
-
-
-
-1. Introduction
-
-
-	What is the difference between an MTS4, a Staff Engineer and
-	a Senior Staff Engineer.  What skills and responsibilities measure 
-	progress along the Senior Technical Staff career ladder?  The 
-	Engineering leveling tool provides general guidelines to answering 
-	these questions, and defines the minimum requirements for the jobs.
-
-	The setting of minimum requirements is, however, a formula
-	for failure.  If we are to succeed, as individuals or a 
-	company, we need to set our sights higher than the "minimum 
-	requirements".  In order to achieve excellence, people need
-	to take a more expansive view of their responsibilities.  We need 
-	to define and promulgate guidelines for what defines exemplary 
-	senior technical performance.
-
-	Moreover, the Engineering Leveling tool is designed to
-	clarify the differences between the levels.  It is not
-	intended as a definition of the jobs or as a tutorial on
-	how we should go about our jobs.  If people are to be 
-	successful at a job, they need to know exactly what is 
-	expected of them.  
-
-	In fact, senior engineers and managers already "know"
-	what is expected of senior engineers - and senior 
-	engineers are already being appraised on the basis of
-	these standards.  The problem is that these "standards" 
-	are informal and haven't been committed to writing.  
-	Standards for professional excellence and expectations 
-	for performance should not be informal.  Quite to the 
-	contrary, they should be explicit and widely circulated.
-	
-	The primary purpose of this paper is to clarify the distinction 
-	between junior and senior engineers, and to set forth standards 
-	of performance towards which Senior Technical Staff should aspire.  
-	This paper is aimed at three audiences:
-
-		Junior engineers who want to understand what it
-		takes to become senior engineers.
-
-		Senior engineers who want to understand what the
-		company needs from them and the growth opportunities
-		that are available to them.
-
-		Managers who need to appraise the performance of 
-		senior engineers and guide/facilitate their career
-		growth.
-		
-	This paper also has a second, but perhaps more important goal.
-	By attempting to formalize our conceptions of what constitutes
-	technical excellence we can reinforce our "Culture of Excellence"
-	(our shared values and aspirations).  When values are more clear,
-	people are better able to identify with and aspire to them.
-	
-    1.1 Use and Abuse of this paper
-	
-	Because this paper seeks an expansive view of what a senior
-	engineer should be, it is not a description of the average 
-	senior engineer ... or any senior engineer.  It is an attempt 
-	to discuss all of the various roles that a senior should fill 
-	... a composite picture of an ideal senior engineer.  To some 
-	degree it is a portrait of Sir Lancelot of the Lake or St 
-	Jeanne d'Arc.
-
-	Realistically, no mere mortal is going to be able to 
-	deliver an exemplary performance in every role.  Different 
-	people have different strengths and will excel in different 
-	areas.  If this were a list of job requirements, somebody who 
-	only did half of the things on the list would be doing
-	a pretty poor job.  This is not a list of job requirements,
-	but an overview of excellence.  Someone who does a good
-	job at half of the things we discuss is delivering a
-	stellar performance.
-
-	This is intended to help us identify areas where further
-	growth is possible.  It would be a perversion of this
-	purpose if this tool was used to "ding" people who are
-	already delivering superlative performance.  This is
-	the danger of defining standards of excellence.
-
-	If we "aim low" however, we are assured of "hitting low".  
-	By putting in writing the values in which we believe and 
-	the levels of performance to which we aspire, we hope to 
-	help build and maintain a "shared culture of excellence".
-	
-	This profile did not originate in Management or in Human
-	Resources, but with senior engineers.  It is appropriate
-	that senior engineers should chart out their own standards
-	for professional excellence. 
-	
-
-2. The Short Answer - what is the difference
-
-	Senior Engineers supposedly have more experience than Junior
-	Engineers, and so it is often expected that they will have
-	broader and deeper technical expertise.  The difference in
-	"expertise", however, is not the fundamental difference between
-	Junior and Senior Engineers.  The fundamental difference is
-	in the scope of their responsibilities and the roles they play
-	in their projects and organizations.
-	
-
-	    A Junior Engineer applies hir professional experience to the
-	    accomplishment of specifically assigned tasks.  
-
-	    A Senior Engineer applies hir professional experience to ensuring 
-	    that the project, program, and company will be successful.
-	
-
-	    A Junior Engineer grows by gaining technical skill.
-    
-	    A Senior Engineer grows by assuming responsibility.
-	
-
-	    A Junior Engineer demonstrates proficiency by the reliable
-	    delivery of high quality work.
-	
-	    A Senior Engineer demonstrates proficiency by anticipating,
-	    recognizing, and dealing with problems.
-
-	
-	    A Junior Engineer is responsible for the quality and timely
-	    delivery of hir own work.
-
-	    A Senior Engineer is responsible for the quality and timely
-	    delivery of the project.
-
-
-	If it had to be summed up in one line, Senior Engineers are
-	not supposed to say "not my job".
-	
-
-3. Long Answer - Responsibilities of Senior Technical Staff
-
-	The primary differences between junior and senior engineers
-	are in their responsibilities.  Responsibilities are obligations 
-	that we owe to others.  A reasonable way to explore these 
-	obligations is by trying to enumerate (a) to whom we owe the 
-	obligations and (b) specifically what obligations we owe them.
-
-	Senior engineers have obligations to:
-
-		other engineers
-
-		their managers and projects
-	
-		their organization
-
-		themselves
-	
-
-    3.1 Responsibilities to other engineers
-
-	The essence of these responsibilities is the Norman dictum
-	of "Noblesse Oblige" (Nobility obligates).  When people are
-	promoted to positions of greater responsibility, they
-	automatically assume numerous obligations to help and 
-	protect their juniors.
-	
-	3.1.1 help them succeed
-
-	Senior engineers should ensure that the problems that are
-	given to more junior engineers have been broken down to a
-	manageable size, and are appropriate to the abilities of
-	the people they are assigned to.  In this way, both the
-	individuals and the project can be "set up" for success.
-
-	Senior engineers should ensure that the people who are working
-	on a project understand exactly what the project is and what
-	their work entails.  A manager or junior engineer may not be
-	in a position to recognize whether or not this communication
-	has been successful.  Senior engineers are.
-	
-	When a senior engineer recognizes problems that are likely
-	to go unnoticed by more junior engineers, they should point
-	those problems out, and help ensure that adequate provisions
-	are made for their solution.
-
-	When problems come up in the course of a project, senior
-	engineers should work with more junior engineers to ensure
-	that the problems are properly understood, that the proposed 
-	solutions are adequate.
-
-	3.1.2 help them grow
-
-	Senior engineers should try to ensure that more junior engineers
-	get problems that will challenge them.  This means giving them
-	an opportunity to fail.  In many cases it means giving a junior
-	person a task that the senior engineer was looking forward to 
-	doing.
-
-	Senior engineers should help to ensure that more junior
-	engineers get opportunities for visibility, and that they
-	receive credit for their contributions.
-
-	Senior engineers should provide guidance to more junior
-	engineers on how to improve their skills and work.  This
-	can be done in formal 1x1 mentoring, or in informal hallway
-	conversation.
-
-	When a junior engineer requires help, a senior engineer
-	should not "solve the problem" for them.  Rather, the
-	senior engineer should help them to work through the 
-	analysis of the problem and potential solutions.  If
-	the junior engineer is weak in some skill or lacks experience 
-	in an important area, the senior engineer should look for 
-	ways to develop the needed skill or experience.
-
-	3.1.3 help them survive
-
-	A senior engineer should be looking out for situations where
-	more junior people have gotten out of their breadth, and
-	step in to help them if they need support or facilitation
-	in working with people in another group.
-
-	A senior engineer should counsel more junior engineers on
-	political matters to help them understand the forces at
-	play in a situation and help them formulate a plan that
-	deals with or accommodates important non-technical factors.
-
-	If a junior person becomes the target of a more senior
-	person's ire, a senior engineer should consider interceding
-	on the junior person's behalf to ensure that justice is 
-	done.  Sometimes, however, it is better to sit back and 
-	allow people to learn from their mistakes.
-
-	3.1.4 be a decent human being
-
-	Whether or not they want to be, senior engineers are leaders,
-	teachers and role models.  Because of these responsibilities, 
-	many of them will also be asked to be counselors.  Senior 
-	engineers should be accessible and reasonable to more junior 
-	people who seek their help or advice.
-	
-
-    3.2 Responsibilities to your Manager and Project
-
-	The senior engineers on a project bear the lion's share of 
-	the responsibility for the successful completion of the 
-	engineering work.  Managers are responsible for working
-	all sorts of priority, schedule, resource and coordination 
-	issues.  When it comes down to ones and zeroes, however,
-	it is the senior engineers who are expected to understand
-	(and take responsibility for) what is really going on.
-	
-	3.2.1 range patrol
-
-	What ever else they are doing, a senior engineer is on
-	constant "patrol ... riding the range", looking for things 
-	that might indicate a problem.  More junior engineers may 
-	become blocked by relatively simple problems, or may pass 
-	over disasters without recognizing them.
-
-	Attention from a senior engineer can ensure that simple 
-	problems are solved with minimal wasted time, and that
-	serious problems receive the prompt and appropriate attention 
-	they require.  No one else can do this job.
-	
-	Junior engineers focus primarily on their assigned tasks,
-	and deal with tangential problems if they are told to.
-	Senior enginers have to take responsibility for anything 
-	that could affect the success of the project, and must
-	be proactive in driving solutions to those problems.
-
-	In order to do this job, the senior engineer has to be
-	able to "get hir head out of the instruments and look
-	around".  People who spend all their time fixating on 
-	details often miss big pictures and early trouble signs.
-
-	3.2.2 problems and options
-
-	When problems are discovered, the analysis of those problems 
-	and the evaluation of potential solutions is the responsibility 
-	of senior engineering.  Ideally, more junior engineers will do 
-	the majority of the analysis ... but it is the responsibility 
-	of senior engineers to ensure that the information passed up 
-	to management (the information based on which decisions will
-	be made) represents our best understanding of the problems.
-
-	When management is evaluating the options, it is the
-	responsibility of senior engineers to ensure that they
-	properly understand the options and costs, and that their
-	decisions are made on the basis of the best and most 
-	complete possible technical input.
-
-	3.2.3 all things great and small
-
-	There is a natural tendency, as we gain technical experience,
-	to focus on more technically challenging tasks.  An innovative
-	design, however, is not a guarantor of a successful product.
-	There are a myriad of processes between a designer and a 
-	happy customers (e.g. documentation, testing, release
-	engineering, training, support).  In order for us to be 
-	successful, all of these processes must be working well.
-
-	Senior engineers should have an appreciation for the
-	importance of all of these activities, and should be
-	concerned with ensuring that all of these activities
-	work well.  A senior engineer should recognize that
-	hir most important contribution to the project might
-	be in writing documentation or a participating on a
-	bug prioritizing team.
-
-	3.2.4 communication and evangelism
-
-	Often management, marketing, executives or other groups
-	do not have a full understanding of the problems that
-	engineers are facing and the approaches can be used to
-	address these problems.  Sometimes this incomplete
-	understanding results in poor decisions.  It is the
-	responsibility of senior engineers to ensure that these
-	other groups have an adequate understanding of technical
-	issues.
-	
-	Often technical messages go unheeded because they were
-	not adequately explained or justified to decision makers.
-	Senior engineers are responsible for ensuring that important
-	messages are understood.  This means that senior engineers
-	must be prepared to understand and discuss less technical
-	(risk, schedule, support, business opportunities) issues that 
-	factor into the decision process.
-
-	In general, making a single presentation on a great new
-	idea is not enough to get the company to change directions.
-	It is often necessary to speak to many groups in order to
-	build consensus for a new initiative.  Sometimes this means
-	that senior engineers have to "go on the road" to sell a
-	new concept.  Senior engineers are expected to "follow
-	through" on communication, and "do whatever it takes"
-	to ensure that important messages are understood.
-	
-	3.2.5 personnel planning and evaluation
-
-	When management is assembling a team of people to carry out
-	a project, senior engineers should endeavor to ensure that
-	management has the most complete possible picture of the
-	abilities and interests of the candidates.  Ensuring that
-	the team includes the right mix of skills and people who
-	will find the project interesting is a major step towards
-	ensuring the success of the project.
-	
-	When management is appraising the performance of the technical
-	staff, senior engineers should endeavor to ensure that management
-	has the most complete possible picture of the achievements, 
-	strengths and needs of the other engineers.  In many cases, 
-	managers may not be close enough to the work to develop
-	well informed opinions on the quality of an engineer's work
-	or of the roles they have played in getting that work done.
-	
-	
-    3.3 Responsibilities to your Organization
-
-	The character of an army is set by its sergeants, and the
-	character and effectiveness of an engineering organization 
-	is set by its senior engineers.
-
-	3.3.1 be a technical conscience
-
-	When the "Emperor has no clothes", it is the responsibility of
-	the senior technical staff to stand up and say so.  Sales people
-	are driven by short term business.  Marketing people work with
-	all manner of vague and ambiguous factors.  Executives work with
-	the information that other people have given them.  Managers work
-	with the directions they have been given.  Engineers are the
-	people who responsible for figuring out how this stuff is all
-	going to work ... and if it isn't going to work they have an 
-	obligation to say so.
-
-	When somebody says "good enough for who its for", it is the 
-	responsibility of the senior technical staff to set higher
-	standards.  The business people are primarily driven by time 
-	and cost considerations, and if the senior engineers don't
-	stand up for technical excellence, we can be sure that nobody 
-	else will.
-
-	Senior engineers need to regularly ask the questions:
-
-		If not now, when?
-		If not us, who?
-
-	3.3.2 be an apostle of vision
-
-	In a large project, people often work on something without
-	understanding how their work fits into the whole.  In general
-	this reduces their identification with the product.  It also
-	creates many opportunities for mistakes.  If people do not have
-	a clear vision of where we are going, they cannot factor that
-	vision into their decisions.
-
-	Often an important change in the way we do business cannot
-	come about until everybody understands the new model and
-	accepts hir roles in it.  Announcements and seminars can
-	create awareness and transfer information, but getting 
-	people to be part of a new vision requires considerably
-	more time and one-on-one communication.
-
-	The senior technical staff has an obligation to understand
-	and communicate project, product, and corporate visions.
-	
-	3.3.3 be a role model
-
-	The senior engineers are (like it or not) role models for the 
-	entire technical staff.  In this capacity, they have great 
-	power to shape the technical organization of the future.
-	It is important that they recognize this responsibility,
-	and act accordingly.
-
-	If the senior engineers set (by their actions) high standards 
-	for thorough and detailed work, junior engineers will absorb 
-	those standards.
-
-	If the senior engineers set (by their actions) an example for
-	being open to new ideas, respectful of others, and generous
-	in helping people who need it, junior engineers will learn
-	to emulate this behavior.
-	
-	If the senior engineers demonstrate (by their actions) an
-	appreciation of the importance of the less glamorous 
-	aspects of a project (documentation, reviews, testing,
-	release engineering, change-review, training, support, 
-	...) junior engineers will learn to value and support
-	these activities.
-
-	If the senior engineers demonstrate (by their actions) a
-	dedication to non-threatening, open and in-depth reviews,
-	junior engineers will come to approach reviews in that
-	fashion.
-
-	If the senior engineers are moderating influences in heated
-	situations, and show mature judgement, junior engineers will
-	learn these virtues.
-
-	If the senior engineers are excited about where we are going
-	and having fun with their work, junior engineers will acquire
-	the same attitude.
-
-	3.3.4 be an agent of change
-
-	Senior engineers should always be on the look-out for things
-	that are not working well.  When major problems are identified
-	they should be looking for solutions.  When solutions are
-	identified they are responsible for selling those solutions
-	to the appropriate people.  When proposed solutions are
-	turned into initiatives, the senior engineers should oversee
-	the process to ensure that things are being done properly
-	so that the promised benefits will in fact be realized.
-
-	Being an agent of change is not merely an option for senior
-	engineers, it is a responsibility.  If a senior engineer
-	notices that something important is broken and that no-one
-	else seems to be fixing it, they should take the responsibility
-	to fix the problem or bring it to the attention of someone
-	who will fix it.  Often the problems we recognize cannot be
-	fixed without management, marketing or executive assistance.
-	In such cases a senior engineer is obligated to ensure that
-	those other people are given a good understanding of the
-	problem and a good set of options for dealing with it.
-
-	There is another side to being an agent of change, and that
-	is facilitating important changes that others have initiated.
-	This is easy when another engineer has come up with a 
-	wonderful new concept.  This responsibility also includes 
-	facilitating the implementation of unpleasant changes that 
-	may be imposed by external factors.  In these situations
-	the senior engineers play a very important role ... finding 
-	ways to solve problems under new constraints and to evolve 
-	processes to work well in a changed organization.
-	
-	3.3.5 be a corporate citizen
-
-	Junior engineers focus on making their code work.  Senior
-	engineers are supposed to focus on making their project,
-	product and company successful.  This is a much broader
-	problem and requires a much broader perspective.
-
-	Senior engineers need to be aware of the full range of
-	constraints that a project is under and make the "right
-	tradeoffs" to do the best possible job within those
-	constraints.
-
-	Senior engineers need to appreciate considerations outside
-	of the the development organization (customer needs, management
-	pressures, market requirements, processes, schedules, support
-	ramifications, risk, ...).  They must be able to factor these
-	considerations into their decisions, and they must be able to
-	discuss these factors with other people.
-
-	Senior engineers need to understand the underlying assumptions 
-	on which product directions and priorities have been predicated.
-	If some of those assumptions appear to be unreasonable, they
-	should be challenged.
-
-	In order to guide the company effectively, senior engineers
-	also need to develop communications and process skills.
-	A brilliant insight into how to solve a major problem may
-	be useless if the genius who had the realization is fired
-	for kicking open the president's door and shouting "You don't
-	have clue-one about what business we are in!"  It may be
-	very important to deliver that message, but it is just as
-	important that the message be delivered in a form that
-	will ensure that it is understood in a way that is likely 
-	to result in constructive action.
-	
-	Lastly (and perhaps most difficult) a senior engineer must know
-	how to "disagree and commit".  The role of the engineering 
-	organization is to provide technical guidance and implement
-	technical plans.  Executives may (because of overriding
-	business concerns) choose a course other than the one that
-	engineering has recommended.  It may be appropriate to 
-	"push back" on such decisions to make sure that they were 
-	carefully made on the basis of good information ... but 
-	ultimately the engineering organization has to line up and 
-	deliver on those plans.
-	
-	If the senior engineers fail to line up behind the new plans,
-	they are setting the product up for failure.  The example
-	they are setting is one of bitter obstruction.  This is bad
-	for the people, for the product, and for the company.
-
-	3.3.6 be a facilitator
-
-	Senior engineers are likely to know people in other groups,
-	to have a better appreciation for the plans and problems
-	that other groups are working with, and to have a bigger
-	picture of how various efforts can and should interact.
-
-	This puts them in a natural position to initiate and facilitate
-	cooperation between various groups.  It also puts them in a
-	unique position to moderate and mediate inter-group conflicts.
-
-	3.3.7 represent the engineering organization
-
-	Senior engineers have the opportunity and responsibility to
-	represent the engineering organization in discussions with
-	marketing, sales, customers and technical committees.  In
-	all of these roles, they act as a channel between their
-	engineering organizations and the outside world.
-
-	Sales and Marketing organizations need to understand where
-	our products are going, and the engineering organization
-	needs to understand where the market is going and how our
-	technologies are being received.  Senior engineers are 
-	often the people who are best able to describe what we
-	have, the feedback from the field, and the implications
-	of marketing requirements.
-
-	Senior engineers will often be called upon to make presentations
-	to customers about our technologies, to answer their questions
-	about our products and directions.  Equally important, senior
-	engineers will often be asked to listen to customers and gain
-	an understanding of their needs and how our products can be
-	applied/adapted to those needs.
-
-	Senior engineers will often be expected to participate in
-	technical conferences or standards committees.
-
-	In all of these situations they are representatives of
-	their teams and organizations.  When dealing with customers,
-	and technical groups they represent the entire company.
-	Senior engineers must recongize this responsibility and
-	act accordingly.
-
-	3.3.8 invest in the future
-
-	Senior engineers need to take a long-term view of the products
-	they work on and the organizations they work in.  A feature that
-	takes three weeks now may save staff-years of support or maintenance
-	work in the future.  Time spent helping (or challenging) a junior
-	engineer today may create a super-star three years from now.  Time
-	spent defining clean interfaces, charters and relationships today
-	may result in a much smoother operation in the future.
-
-	Senior engineers have to look for ways to make long term
-	improvements, and they have to drive the investments that
-	will secure those improvements.  This doesn't mean that
-	management will always support those improvements ... but
-	if the senior engineers don't dedicate themselves to making
-	these investments in the future, they can rest assured that
-	nobody else will do it for them.
-
-	Senior engineers need to take responsibility for the growth
-	(in quality) of the engineering organization.  They need to
-	help ensure that the right engineers are hired, that they
-	grow, that we have the right tools, that we have sound and
-	efficient methodologies and processes, and in general that
-	our already strong engineering organization will be even
-	stronger in the future.  For any organization, complacency 
-	is death.  This is especially true of a technical organization.
-	
-	
-    3.4 Responsibilities to yourself
-
-	Finally, and perhaps most importantly, senior engineers have
-	some obligations to themselves.  Junior engineers have senior
-	engineers to mentor them in their professional development.
-	Who is there to mentor the senior engineers?  To a large
-	extent, the senior engineers must guide their own growth.
-
-	3.4.1 Maintain your technical edge
-
-	As we assume more general responsibility and delegate increasingly
-	more technical tasks to more junior engineers, it becomes very 
-	easy to "lose touch with the bits".  This is a natural tendency.
-	We can often help the project more by providing analysis,
-	guidance and review than we can by writing code ourselves.
-
-	If we want to be senior engineers, we must remain technically 
-	competent.  It is difficult to help someone else if you don't
-	understand the problem they are trying to solve, or can no
-	longer use the tools of the trade.  It is difficult to set
-	an example, if you are no longer able to do the work.
-
-	Sometimes it may seem that we have so much to do that 
-	keeping our technical skills up to date is just not possible.
-	In many cases, however, we can get our "technical exercise"
-	at the same time we are fulfilling our other responsibilities,
-	and the synergistic gains can be very significant.  
-	
-	Part of this is a matter of maintaining engagement with the
-	work in progress.  If you understand how the implementation
-	is proceeding you are more likely to be able to recognize
-	problems and solutions.  In working directly with individual
-	developers you will have the opportunity to understand their
-	strengths and weaknesses, and to help them develop their
-	technical skills.
-	
-	Another major component of maintaining technical competence
-	is to continue learning on the job.  Senior engineers are often 
-	called upon to investigate new technologies in order to evaluate 
-	their relevance to our plans.  Senior engineers are expected to
-	be aware of what is going on in related projects.  These are
-	easy opportunities to further our education.
-	
-	There are also many external opportunities for continued
-	technical growth and education.  We can read technical
-	journals, attend seminars at Universities and attend
-	conferences in the areas we are interested in.  We can 
-	also look for courses or projects that will enhance our
-	skills or gain a more useful understanding a new concept.
-		
-	3.4.2 Find new ways to grow and contribute
-
-	In large part, the growth of a junior engineer comes from
-	being assigned increasingly challenging tasks.  When one
-	has become very good at design and implementation, it is
-	occasionally difficult to hand a juicy problem to more 
-	junior people.  Reviewing other peoples' work and helping
-	them through problems is important ... but it may not 
-	seem as satisfying as doing the work personally.
-
-	A senior engineer's role, however, is not limited to review 
-	and support.  There are many other areas where senior 
-	engineers can and should make valuable contributions (that 
-	is what this whole paper is about).  There is, however, an
-	important difference between the contributions that are
-	made by junior and senior engineers.  Junior engineers
-	are assigned problems to work on.  Senior engineers often
-	have to find problems to work on.
-	
-	A senior engineer must be pro-active in finding problems
-	that require attention and opportunities to improve the
-	people, the product, or the organization.  A senior engineer
-	should be on constant look-out for things that "aren't 
-	going well", identifying the most pressing problems, and
-	trying to find ways to address them.
-	
-	The problems might be very technical (we are spending 25%
-	of our cycles in this one function and we need to speed it
-	up) or very general (our testing and hand-off procedures
-	are completely broken).  As engineers become more senior,
-	they can take responsibility for a broader range of problems.
-	
-	Some may fear that their manager will be upset about the
-	fact that they are working on a problem that doesn't directly
-	contribute to this week's deliverables.  Clearly our managers
-	have to approve of the way we are spending our time ... but
-	most managers recognize and prize pro-active responsible
-	senior people who run around finding and fixing important
-	problems.
-	
-	3.4.3 Take responsibility for your own quality and growth
-
-	There are very few people who are competent to guide a
-	senior engineer's growth.  Senior engineers are, more
-	likely than not, "the expert" on most subjects, and the
-	person to whom others come for advice.  In such situations
-	the senior engineer may be the best (or even the only) person 
-	who can assess the quality of hir work.   A senior engineer
-	must, therefore, accept the responsibility for reviewing
-	hir own work.
-
-	When a junior engineer nears the completion of a task,
-	managers and senior engineers will be figuring out what
-	the next task should be.  If it is not obvious to a junior
-	engineer that this job is done and it is time to move on,
-	a manager or senior engineer will bring this to their attention.
-	Senior engineers cannot depend on others to tell them what
-	they should do next, or when they have reached a point of
-	diminishing returns.
-	
-	If a junior engineer needs to develop in some area, hir
-	manager or a senior engineer will probably be trying to
-	come up with tasks that will encourage that growth.  If
-	a senior engineer needs to develop in some area, (s)he
-	will (more often than not) have to accept the responsibility
-	for recognizing and remedying the need on hir own.
-
-	A senior engineer is expected to do what is needed without
-	someone else having to tell them that they should do it.
-
-	3.4.4 Maintain a sense of perspective and have fun
-
-	If you are burned out, you won't be able to help anyone,
-	and your pessimism will spread to others.  If you are
-	having fun, that will spread to the other people you 
-	work with.
-
-	The stuff we are working on is inconceivably complex,
-	we continually face numerous problems, and it seems 
-	miraculous that we can keep pulling this off.  A sense
-	of humor (even a perverse one) is almost essential.
-```
+a really beautiful text and one that we should follow as software developers.  
+  
+>
+>
+>		Roles and Responsibilities for Senior Technical Staff
+>
+>			   version 1.6 of 04/20/98
+>
+>
+>
+>
+>		I, according to my copy, have done set it in
+>		imprint, to the intent that noble men may see
+>		and learn the noble acts of chivalry, and the
+>		gentle and virtuous deeds that some knights
+>		used in those days.
+>
+>			William Caxton, Preface to the first
+>			printing of Mallory's "Le Morte D'Arthur"
+>
+>
+>
+>1. Introduction
+>
+>
+>	What is the difference between an MTS4, a Staff Engineer and
+>	a Senior Staff Engineer.  What skills and responsibilities measure 
+>	progress along the Senior Technical Staff career ladder?  The 
+>	Engineering leveling tool provides general guidelines to answering 
+>	these questions, and defines the minimum requirements for the jobs.
+>
+>	The setting of minimum requirements is, however, a formula
+>	for failure.  If we are to succeed, as individuals or a 
+>	company, we need to set our sights higher than the "minimum 
+>	requirements".  In order to achieve excellence, people need
+>	to take a more expansive view of their responsibilities.  We need 
+>	to define and promulgate guidelines for what defines exemplary 
+>	senior technical performance.
+>
+>	Moreover, the Engineering Leveling tool is designed to
+>	clarify the differences between the levels.  It is not
+>	intended as a definition of the jobs or as a tutorial on
+>	how we should go about our jobs.  If people are to be 
+>	successful at a job, they need to know exactly what is 
+>	expected of them.  
+>
+>	In fact, senior engineers and managers already "know"
+>	what is expected of senior engineers - and senior 
+>	engineers are already being appraised on the basis of
+>	these standards.  The problem is that these "standards" 
+>	are informal and haven't been committed to writing.  
+>	Standards for professional excellence and expectations 
+>	for performance should not be informal.  Quite to the 
+>	contrary, they should be explicit and widely circulated.
+>	
+>	The primary purpose of this paper is to clarify the distinction 
+>	between junior and senior engineers, and to set forth standards 
+>	of performance towards which Senior Technical Staff should aspire.  
+>	This paper is aimed at three audiences:
+>
+>		Junior engineers who want to understand what it
+>		takes to become senior engineers.
+>
+>		Senior engineers who want to understand what the
+>		company needs from them and the growth opportunities
+>		that are available to them.
+>
+>		Managers who need to appraise the performance of 
+>		senior engineers and guide/facilitate their career
+>		growth.
+>		
+>	This paper also has a second, but perhaps more important goal.
+>	By attempting to formalize our conceptions of what constitutes
+>	technical excellence we can reinforce our "Culture of Excellence"
+>	(our shared values and aspirations).  When values are more clear,
+>	people are better able to identify with and aspire to them.
+>	
+>    1.1 Use and Abuse of this paper
+>	
+>	Because this paper seeks an expansive view of what a senior
+>	engineer should be, it is not a description of the average 
+>	senior engineer ... or any senior engineer.  It is an attempt 
+>	to discuss all of the various roles that a senior should fill 
+>	... a composite picture of an ideal senior engineer.  To some 
+>	degree it is a portrait of Sir Lancelot of the Lake or St 
+>	Jeanne d'Arc.
+>
+>	Realistically, no mere mortal is going to be able to 
+>	deliver an exemplary performance in every role.  Different 
+>	people have different strengths and will excel in different 
+>	areas.  If this were a list of job requirements, somebody who 
+>	only did half of the things on the list would be doing
+>	a pretty poor job.  This is not a list of job requirements,
+>	but an overview of excellence.  Someone who does a good
+>	job at half of the things we discuss is delivering a
+>	stellar performance.
+>
+>	This is intended to help us identify areas where further
+>	growth is possible.  It would be a perversion of this
+>	purpose if this tool was used to "ding" people who are
+>	already delivering superlative performance.  This is
+>	the danger of defining standards of excellence.
+>
+>	If we "aim low" however, we are assured of "hitting low".  
+>	By putting in writing the values in which we believe and 
+>	the levels of performance to which we aspire, we hope to 
+>	help build and maintain a "shared culture of excellence".
+>	
+>	This profile did not originate in Management or in Human
+>	Resources, but with senior engineers.  It is appropriate
+>	that senior engineers should chart out their own standards
+>	for professional excellence. 
+>	
+>
+>2. The Short Answer - what is the difference
+>
+>	Senior Engineers supposedly have more experience than Junior
+>	Engineers, and so it is often expected that they will have
+>	broader and deeper technical expertise.  The difference in
+>	"expertise", however, is not the fundamental difference between
+>	Junior and Senior Engineers.  The fundamental difference is
+>	in the scope of their responsibilities and the roles they play
+>	in their projects and organizations.
+>	
+>
+>	    A Junior Engineer applies hir professional experience to the
+>	    accomplishment of specifically assigned tasks.  
+>
+>	    A Senior Engineer applies hir professional experience to ensuring 
+>	    that the project, program, and company will be successful.
+>	
+>
+>	    A Junior Engineer grows by gaining technical skill.
+>    
+>	    A Senior Engineer grows by assuming responsibility.
+>	
+>
+>	    A Junior Engineer demonstrates proficiency by the reliable
+>	    delivery of high quality work.
+>	
+>	    A Senior Engineer demonstrates proficiency by anticipating,
+>	    recognizing, and dealing with problems.
+>
+>	
+>	    A Junior Engineer is responsible for the quality and timely
+>	    delivery of hir own work.
+>
+>	    A Senior Engineer is responsible for the quality and timely
+>	    delivery of the project.
+>
+>
+>	If it had to be summed up in one line, Senior Engineers are
+>	not supposed to say "not my job".
+>	
+>
+>3. Long Answer - Responsibilities of Senior Technical Staff
+>
+>	The primary differences between junior and senior engineers
+>	are in their responsibilities.  Responsibilities are obligations 
+>	that we owe to others.  A reasonable way to explore these 
+>	obligations is by trying to enumerate (a) to whom we owe the 
+>	obligations and (b) specifically what obligations we owe them.
+>
+>	Senior engineers have obligations to:
+>
+>		other engineers
+>
+>		their managers and projects
+>	
+>		their organization
+>
+>		themselves
+>	
+>
+>    3.1 Responsibilities to other engineers
+>
+>	The essence of these responsibilities is the Norman dictum
+>	of "Noblesse Oblige" (Nobility obligates).  When people are
+>	promoted to positions of greater responsibility, they
+>	automatically assume numerous obligations to help and 
+>	protect their juniors.
+>	
+>	3.1.1 help them succeed
+>
+>	Senior engineers should ensure that the problems that are
+>	given to more junior engineers have been broken down to a
+>	manageable size, and are appropriate to the abilities of
+>	the people they are assigned to.  In this way, both the
+>	individuals and the project can be "set up" for success.
+>
+>	Senior engineers should ensure that the people who are working
+>	on a project understand exactly what the project is and what
+>	their work entails.  A manager or junior engineer may not be
+>	in a position to recognize whether or not this communication
+>	has been successful.  Senior engineers are.
+>	
+>	When a senior engineer recognizes problems that are likely
+>	to go unnoticed by more junior engineers, they should point
+>	those problems out, and help ensure that adequate provisions
+>	are made for their solution.
+>
+>	When problems come up in the course of a project, senior
+>	engineers should work with more junior engineers to ensure
+>	that the problems are properly understood, that the proposed 
+>	solutions are adequate.
+>
+>	3.1.2 help them grow
+>
+>	Senior engineers should try to ensure that more junior engineers
+>	get problems that will challenge them.  This means giving them
+>	an opportunity to fail.  In many cases it means giving a junior
+>	person a task that the senior engineer was looking forward to 
+>	doing.
+>
+>	Senior engineers should help to ensure that more junior
+>	engineers get opportunities for visibility, and that they
+>	receive credit for their contributions.
+>
+>	Senior engineers should provide guidance to more junior
+>	engineers on how to improve their skills and work.  This
+>	can be done in formal 1x1 mentoring, or in informal hallway
+>	conversation.
+>
+>	When a junior engineer requires help, a senior engineer
+>	should not "solve the problem" for them.  Rather, the
+>	senior engineer should help them to work through the 
+>	analysis of the problem and potential solutions.  If
+>	the junior engineer is weak in some skill or lacks experience 
+>	in an important area, the senior engineer should look for 
+>	ways to develop the needed skill or experience.
+>
+>	3.1.3 help them survive
+>
+>	A senior engineer should be looking out for situations where
+>	more junior people have gotten out of their breadth, and
+>	step in to help them if they need support or facilitation
+>	in working with people in another group.
+>
+>	A senior engineer should counsel more junior engineers on
+>	political matters to help them understand the forces at
+>	play in a situation and help them formulate a plan that
+>	deals with or accommodates important non-technical factors.
+>
+>	If a junior person becomes the target of a more senior
+>	person's ire, a senior engineer should consider interceding
+>	on the junior person's behalf to ensure that justice is 
+>	done.  Sometimes, however, it is better to sit back and 
+>	allow people to learn from their mistakes.
+>
+>	3.1.4 be a decent human being
+>
+>	Whether or not they want to be, senior engineers are leaders,
+>	teachers and role models.  Because of these responsibilities, 
+>	many of them will also be asked to be counselors.  Senior 
+>	engineers should be accessible and reasonable to more junior 
+>	people who seek their help or advice.
+>	
+>
+>    3.2 Responsibilities to your Manager and Project
+>
+>	The senior engineers on a project bear the lion's share of 
+>	the responsibility for the successful completion of the 
+>	engineering work.  Managers are responsible for working
+>	all sorts of priority, schedule, resource and coordination 
+>	issues.  When it comes down to ones and zeroes, however,
+>	it is the senior engineers who are expected to understand
+>	(and take responsibility for) what is really going on.
+>	
+>	3.2.1 range patrol
+>
+>	What ever else they are doing, a senior engineer is on
+>	constant "patrol ... riding the range", looking for things 
+>	that might indicate a problem.  More junior engineers may 
+>	become blocked by relatively simple problems, or may pass 
+>	over disasters without recognizing them.
+>
+>	Attention from a senior engineer can ensure that simple 
+>	problems are solved with minimal wasted time, and that
+>	serious problems receive the prompt and appropriate attention 
+>	they require.  No one else can do this job.
+>	
+>	Junior engineers focus primarily on their assigned tasks,
+>	and deal with tangential problems if they are told to.
+>	Senior enginers have to take responsibility for anything 
+>	that could affect the success of the project, and must
+>	be proactive in driving solutions to those problems.
+>
+>	In order to do this job, the senior engineer has to be
+>	able to "get hir head out of the instruments and look
+>	around".  People who spend all their time fixating on 
+>	details often miss big pictures and early trouble signs.
+>
+>	3.2.2 problems and options
+>
+>	When problems are discovered, the analysis of those problems 
+>	and the evaluation of potential solutions is the responsibility 
+>	of senior engineering.  Ideally, more junior engineers will do 
+>	the majority of the analysis ... but it is the responsibility 
+>	of senior engineers to ensure that the information passed up 
+>	to management (the information based on which decisions will
+>	be made) represents our best understanding of the problems.
+>
+>	When management is evaluating the options, it is the
+>	responsibility of senior engineers to ensure that they
+>	properly understand the options and costs, and that their
+>	decisions are made on the basis of the best and most 
+>	complete possible technical input.
+>
+>	3.2.3 all things great and small
+>
+>	There is a natural tendency, as we gain technical experience,
+>	to focus on more technically challenging tasks.  An innovative
+>	design, however, is not a guarantor of a successful product.
+>	There are a myriad of processes between a designer and a 
+>	happy customers (e.g. documentation, testing, release
+>	engineering, training, support).  In order for us to be 
+>	successful, all of these processes must be working well.
+>
+>	Senior engineers should have an appreciation for the
+>	importance of all of these activities, and should be
+>	concerned with ensuring that all of these activities
+>	work well.  A senior engineer should recognize that
+>	hir most important contribution to the project might
+>	be in writing documentation or a participating on a
+>	bug prioritizing team.
+>
+>	3.2.4 communication and evangelism
+>
+>	Often management, marketing, executives or other groups
+>	do not have a full understanding of the problems that
+>	engineers are facing and the approaches can be used to
+>	address these problems.  Sometimes this incomplete
+>	understanding results in poor decisions.  It is the
+>	responsibility of senior engineers to ensure that these
+>	other groups have an adequate understanding of technical
+>	issues.
+>	
+>	Often technical messages go unheeded because they were
+>	not adequately explained or justified to decision makers.
+>	Senior engineers are responsible for ensuring that important
+>	messages are understood.  This means that senior engineers
+>	must be prepared to understand and discuss less technical
+>	(risk, schedule, support, business opportunities) issues that 
+>	factor into the decision process.
+>
+>	In general, making a single presentation on a great new
+>	idea is not enough to get the company to change directions.
+>	It is often necessary to speak to many groups in order to
+>	build consensus for a new initiative.  Sometimes this means
+>	that senior engineers have to "go on the road" to sell a
+>	new concept.  Senior engineers are expected to "follow
+>	through" on communication, and "do whatever it takes"
+>	to ensure that important messages are understood.
+>	
+>	3.2.5 personnel planning and evaluation
+>
+>	When management is assembling a team of people to carry out
+>	a project, senior engineers should endeavor to ensure that
+>	management has the most complete possible picture of the
+>	abilities and interests of the candidates.  Ensuring that
+>	the team includes the right mix of skills and people who
+>	will find the project interesting is a major step towards
+>	ensuring the success of the project.
+>	
+>	When management is appraising the performance of the technical
+>	staff, senior engineers should endeavor to ensure that management
+>	has the most complete possible picture of the achievements, 
+>	strengths and needs of the other engineers.  In many cases, 
+>	managers may not be close enough to the work to develop
+>	well informed opinions on the quality of an engineer's work
+>	or of the roles they have played in getting that work done.
+>	
+>	
+>    3.3 Responsibilities to your Organization
+>
+>	The character of an army is set by its sergeants, and the
+>	character and effectiveness of an engineering organization 
+>	is set by its senior engineers.
+>
+>	3.3.1 be a technical conscience
+>
+>	When the "Emperor has no clothes", it is the responsibility of
+>	the senior technical staff to stand up and say so.  Sales people
+>	are driven by short term business.  Marketing people work with
+>	all manner of vague and ambiguous factors.  Executives work with
+>	the information that other people have given them.  Managers work
+>	with the directions they have been given.  Engineers are the
+>	people who responsible for figuring out how this stuff is all
+>	going to work ... and if it isn't going to work they have an 
+>	obligation to say so.
+>
+>	When somebody says "good enough for who its for", it is the 
+>	responsibility of the senior technical staff to set higher
+>	standards.  The business people are primarily driven by time 
+>	and cost considerations, and if the senior engineers don't
+>	stand up for technical excellence, we can be sure that nobody 
+>	else will.
+>
+>	Senior engineers need to regularly ask the questions:
+>
+>		If not now, when?
+>		If not us, who?
+>
+>	3.3.2 be an apostle of vision
+>
+>	In a large project, people often work on something without
+>	understanding how their work fits into the whole.  In general
+>	this reduces their identification with the product.  It also
+>	creates many opportunities for mistakes.  If people do not have
+>	a clear vision of where we are going, they cannot factor that
+>	vision into their decisions.
+>
+>	Often an important change in the way we do business cannot
+>	come about until everybody understands the new model and
+>	accepts hir roles in it.  Announcements and seminars can
+>	create awareness and transfer information, but getting 
+>	people to be part of a new vision requires considerably
+>	more time and one-on-one communication.
+>
+>	The senior technical staff has an obligation to understand
+>	and communicate project, product, and corporate visions.
+>	
+>	3.3.3 be a role model
+>
+>	The senior engineers are (like it or not) role models for the 
+>	entire technical staff.  In this capacity, they have great 
+>	power to shape the technical organization of the future.
+>	It is important that they recognize this responsibility,
+>	and act accordingly.
+>
+>	If the senior engineers set (by their actions) high standards 
+>	for thorough and detailed work, junior engineers will absorb 
+>	those standards.
+>
+>	If the senior engineers set (by their actions) an example for
+>	being open to new ideas, respectful of others, and generous
+>	in helping people who need it, junior engineers will learn
+>	to emulate this behavior.
+>	
+>	If the senior engineers demonstrate (by their actions) an
+>	appreciation of the importance of the less glamorous 
+>	aspects of a project (documentation, reviews, testing,
+>	release engineering, change-review, training, support, 
+>	...) junior engineers will learn to value and support
+>	these activities.
+>
+>	If the senior engineers demonstrate (by their actions) a
+>	dedication to non-threatening, open and in-depth reviews,
+>	junior engineers will come to approach reviews in that
+>	fashion.
+>
+>	If the senior engineers are moderating influences in heated
+>	situations, and show mature judgement, junior engineers will
+>	learn these virtues.
+>
+>	If the senior engineers are excited about where we are going
+>	and having fun with their work, junior engineers will acquire
+>	the same attitude.
+>
+>	3.3.4 be an agent of change
+>
+>	Senior engineers should always be on the look-out for things
+>	that are not working well.  When major problems are identified
+>	they should be looking for solutions.  When solutions are
+>	identified they are responsible for selling those solutions
+>	to the appropriate people.  When proposed solutions are
+>	turned into initiatives, the senior engineers should oversee
+>	the process to ensure that things are being done properly
+>	so that the promised benefits will in fact be realized.
+>
+>	Being an agent of change is not merely an option for senior
+>	engineers, it is a responsibility.  If a senior engineer
+>	notices that something important is broken and that no-one
+>	else seems to be fixing it, they should take the responsibility
+>	to fix the problem or bring it to the attention of someone
+>	who will fix it.  Often the problems we recognize cannot be
+>	fixed without management, marketing or executive assistance.
+>	In such cases a senior engineer is obligated to ensure that
+>	those other people are given a good understanding of the
+>	problem and a good set of options for dealing with it.
+>
+>	There is another side to being an agent of change, and that
+>	is facilitating important changes that others have initiated.
+>	This is easy when another engineer has come up with a 
+>	wonderful new concept.  This responsibility also includes 
+>	facilitating the implementation of unpleasant changes that 
+>	may be imposed by external factors.  In these situations
+>	the senior engineers play a very important role ... finding 
+>	ways to solve problems under new constraints and to evolve 
+>	processes to work well in a changed organization.
+>	
+>	3.3.5 be a corporate citizen
+>
+>	Junior engineers focus on making their code work.  Senior
+>	engineers are supposed to focus on making their project,
+>	product and company successful.  This is a much broader
+>	problem and requires a much broader perspective.
+>
+>	Senior engineers need to be aware of the full range of
+>	constraints that a project is under and make the "right
+>	tradeoffs" to do the best possible job within those
+>	constraints.
+>
+>	Senior engineers need to appreciate considerations outside
+>	of the the development organization (customer needs, management
+>	pressures, market requirements, processes, schedules, support
+>	ramifications, risk, ...).  They must be able to factor these
+>	considerations into their decisions, and they must be able to
+>	discuss these factors with other people.
+>
+>	Senior engineers need to understand the underlying assumptions 
+>	on which product directions and priorities have been predicated.
+>	If some of those assumptions appear to be unreasonable, they
+>	should be challenged.
+>
+>	In order to guide the company effectively, senior engineers
+>	also need to develop communications and process skills.
+>	A brilliant insight into how to solve a major problem may
+>	be useless if the genius who had the realization is fired
+>	for kicking open the president's door and shouting "You don't
+>	have clue-one about what business we are in!"  It may be
+>	very important to deliver that message, but it is just as
+>	important that the message be delivered in a form that
+>	will ensure that it is understood in a way that is likely 
+>	to result in constructive action.
+>	
+>	Lastly (and perhaps most difficult) a senior engineer must know
+>	how to "disagree and commit".  The role of the engineering 
+>	organization is to provide technical guidance and implement
+>	technical plans.  Executives may (because of overriding
+>	business concerns) choose a course other than the one that
+>	engineering has recommended.  It may be appropriate to 
+>	"push back" on such decisions to make sure that they were 
+>	carefully made on the basis of good information ... but 
+>	ultimately the engineering organization has to line up and 
+>	deliver on those plans.
+>	
+>	If the senior engineers fail to line up behind the new plans,
+>	they are setting the product up for failure.  The example
+>	they are setting is one of bitter obstruction.  This is bad
+>	for the people, for the product, and for the company.
+>
+>	3.3.6 be a facilitator
+>
+>	Senior engineers are likely to know people in other groups,
+>	to have a better appreciation for the plans and problems
+>	that other groups are working with, and to have a bigger
+>	picture of how various efforts can and should interact.
+>
+>	This puts them in a natural position to initiate and facilitate
+>	cooperation between various groups.  It also puts them in a
+>	unique position to moderate and mediate inter-group conflicts.
+>
+>	3.3.7 represent the engineering organization
+>
+>	Senior engineers have the opportunity and responsibility to
+>	represent the engineering organization in discussions with
+>	marketing, sales, customers and technical committees.  In
+>	all of these roles, they act as a channel between their
+>	engineering organizations and the outside world.
+>
+>	Sales and Marketing organizations need to understand where
+>	our products are going, and the engineering organization
+>	needs to understand where the market is going and how our
+>	technologies are being received.  Senior engineers are 
+>	often the people who are best able to describe what we
+>	have, the feedback from the field, and the implications
+>	of marketing requirements.
+>
+>	Senior engineers will often be called upon to make presentations
+>	to customers about our technologies, to answer their questions
+>	about our products and directions.  Equally important, senior
+>	engineers will often be asked to listen to customers and gain
+>	an understanding of their needs and how our products can be
+>	applied/adapted to those needs.
+>
+>	Senior engineers will often be expected to participate in
+>	technical conferences or standards committees.
+>
+>	In all of these situations they are representatives of
+>	their teams and organizations.  When dealing with customers,
+>	and technical groups they represent the entire company.
+>	Senior engineers must recongize this responsibility and
+>	act accordingly.
+>
+>	3.3.8 invest in the future
+>
+>	Senior engineers need to take a long-term view of the products
+>	they work on and the organizations they work in.  A feature that
+>	takes three weeks now may save staff-years of support or maintenance
+>	work in the future.  Time spent helping (or challenging) a junior
+>	engineer today may create a super-star three years from now.  Time
+>	spent defining clean interfaces, charters and relationships today
+>	may result in a much smoother operation in the future.
+>
+>	Senior engineers have to look for ways to make long term
+>	improvements, and they have to drive the investments that
+>	will secure those improvements.  This doesn't mean that
+>	management will always support those improvements ... but
+>	if the senior engineers don't dedicate themselves to making
+>	these investments in the future, they can rest assured that
+>	nobody else will do it for them.
+>
+>	Senior engineers need to take responsibility for the growth
+>	(in quality) of the engineering organization.  They need to
+>	help ensure that the right engineers are hired, that they
+>	grow, that we have the right tools, that we have sound and
+>	efficient methodologies and processes, and in general that
+>	our already strong engineering organization will be even
+>	stronger in the future.  For any organization, complacency 
+>	is death.  This is especially true of a technical organization.
+>	
+>	
+>    3.4 Responsibilities to yourself
+>
+>	Finally, and perhaps most importantly, senior engineers have
+>	some obligations to themselves.  Junior engineers have senior
+>	engineers to mentor them in their professional development.
+>	Who is there to mentor the senior engineers?  To a large
+>	extent, the senior engineers must guide their own growth.
+>
+>	3.4.1 Maintain your technical edge
+>
+>	As we assume more general responsibility and delegate increasingly
+>	more technical tasks to more junior engineers, it becomes very 
+>	easy to "lose touch with the bits".  This is a natural tendency.
+>	We can often help the project more by providing analysis,
+>	guidance and review than we can by writing code ourselves.
+>
+>	If we want to be senior engineers, we must remain technically 
+>	competent.  It is difficult to help someone else if you don't
+>	understand the problem they are trying to solve, or can no
+>	longer use the tools of the trade.  It is difficult to set
+>	an example, if you are no longer able to do the work.
+>
+>	Sometimes it may seem that we have so much to do that 
+>	keeping our technical skills up to date is just not possible.
+>	In many cases, however, we can get our "technical exercise"
+>	at the same time we are fulfilling our other responsibilities,
+>	and the synergistic gains can be very significant.  
+>	
+>	Part of this is a matter of maintaining engagement with the
+>	work in progress.  If you understand how the implementation
+>	is proceeding you are more likely to be able to recognize
+>	problems and solutions.  In working directly with individual
+>	developers you will have the opportunity to understand their
+>	strengths and weaknesses, and to help them develop their
+>	technical skills.
+>	
+>	Another major component of maintaining technical competence
+>	is to continue learning on the job.  Senior engineers are often 
+>	called upon to investigate new technologies in order to evaluate 
+>	their relevance to our plans.  Senior engineers are expected to
+>	be aware of what is going on in related projects.  These are
+>	easy opportunities to further our education.
+>	
+>	There are also many external opportunities for continued
+>	technical growth and education.  We can read technical
+>	journals, attend seminars at Universities and attend
+>	conferences in the areas we are interested in.  We can 
+>	also look for courses or projects that will enhance our
+>	skills or gain a more useful understanding a new concept.
+>		
+>	3.4.2 Find new ways to grow and contribute
+>
+>	In large part, the growth of a junior engineer comes from
+>	being assigned increasingly challenging tasks.  When one
+>	has become very good at design and implementation, it is
+>	occasionally difficult to hand a juicy problem to more 
+>	junior people.  Reviewing other peoples' work and helping
+>	them through problems is important ... but it may not 
+>	seem as satisfying as doing the work personally.
+>
+>	A senior engineer's role, however, is not limited to review 
+>	and support.  There are many other areas where senior 
+>	engineers can and should make valuable contributions (that 
+>	is what this whole paper is about).  There is, however, an
+>	important difference between the contributions that are
+>	made by junior and senior engineers.  Junior engineers
+>	are assigned problems to work on.  Senior engineers often
+>	have to find problems to work on.
+>	
+>	A senior engineer must be pro-active in finding problems
+>	that require attention and opportunities to improve the
+>	people, the product, or the organization.  A senior engineer
+>	should be on constant look-out for things that "aren't 
+>	going well", identifying the most pressing problems, and
+>	trying to find ways to address them.
+>	
+>	The problems might be very technical (we are spending 25%
+>	of our cycles in this one function and we need to speed it
+>	up) or very general (our testing and hand-off procedures
+>	are completely broken).  As engineers become more senior,
+>	they can take responsibility for a broader range of problems.
+>	
+>	Some may fear that their manager will be upset about the
+>	fact that they are working on a problem that doesn't directly
+>	contribute to this week's deliverables.  Clearly our managers
+>	have to approve of the way we are spending our time ... but
+>	most managers recognize and prize pro-active responsible
+>	senior people who run around finding and fixing important
+>	problems.
+>	
+>	3.4.3 Take responsibility for your own quality and growth
+>
+>	There are very few people who are competent to guide a
+>	senior engineer's growth.  Senior engineers are, more
+>	likely than not, "the expert" on most subjects, and the
+>	person to whom others come for advice.  In such situations
+>	the senior engineer may be the best (or even the only) person 
+>	who can assess the quality of hir work.   A senior engineer
+>	must, therefore, accept the responsibility for reviewing
+>	hir own work.
+>
+>	When a junior engineer nears the completion of a task,
+>	managers and senior engineers will be figuring out what
+>	the next task should be.  If it is not obvious to a junior
+>	engineer that this job is done and it is time to move on,
+>	a manager or senior engineer will bring this to their attention.
+>	Senior engineers cannot depend on others to tell them what
+>	they should do next, or when they have reached a point of
+>	diminishing returns.
+>	
+>	If a junior engineer needs to develop in some area, hir
+>	manager or a senior engineer will probably be trying to
+>	come up with tasks that will encourage that growth.  If
+>	a senior engineer needs to develop in some area, (s)he
+>	will (more often than not) have to accept the responsibility
+>	for recognizing and remedying the need on hir own.
+>
+>	A senior engineer is expected to do what is needed without
+>	someone else having to tell them that they should do it.
+>
+>	3.4.4 Maintain a sense of perspective and have fun
+>
+>	If you are burned out, you won't be able to help anyone,
+>	and your pessimism will spread to others.  If you are
+>	having fun, that will spread to the other people you 
+>	work with.
+>
+>	The stuff we are working on is inconceivably complex,
+>	we continually face numerous problems, and it seems 
+>	miraculous that we can keep pulling this off.  A sense
+>	of humor (even a perverse one) is almost essential.
+>
