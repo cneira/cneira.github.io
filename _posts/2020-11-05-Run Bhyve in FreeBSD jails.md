@@ -1,7 +1,3 @@
-# Table of Contents
-
-# How to run bhyve in a jail
-
 I&rsquo;ll setup a jail dedicated to run bhyve vms , for jail creation I&rsquo;ll use bastillebsd
 
 Steps:
