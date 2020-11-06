@@ -1,13 +1,5 @@
 # Table of Contents
 
-1.  [How to run bhyve in a jail](#orgf2f80ce)
-    1.  [Install bastillebsd to create and manage jails.](#orgeced498)
-    2.  [Setup bastillebsd](#org11aee24)
-    3.  [Issues](#orgd919e99)
-    4.  [References](#org29ec288)
-
-<a id="orgf2f80ce"></a>
-
 # How to run bhyve in a jail
 
 I&rsquo;ll setup a jail dedicated to run bhyve vms , for jail creation I&rsquo;ll use bastillebsd
