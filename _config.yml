@@ -12,7 +12,7 @@ avatar:
 # Remote theme
 #remote_theme: pages-theme/minimal
 
-theme: minima
+#theme: minima
 
 #
 # Flags below are optional
